@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to CSS Basics</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="intro-section">
+            <h2>Understanding the Box Model</h2>
+            <p>Every element in web design is a rectangular box. The CSS Box Model describes how these boxes are sized and spaced.</p>
+            <button class="btn">Learn More</button>
+        </section>
+
+        <section class="card-container">
+            <article class="card">
+                <h3>Margin</h3>
+                <p>The outer layer that creates space between elements.</p>
+                <div class="box-model-demo margin-demo"></div>
+            </article>
+
+            <article class="card">
+                <h3>Border</h3>
+                <p>The edge surrounding the padding and content.</p>
+                <div class="box-model-demo border-demo"></div>
+            </article>
+
+            <article class="card">
+                <h3>Padding</h3>
+                <p>The inner layer that creates space inside the element.</p>
+                <div class="box-model-demo padding-demo"></div>
+            </article>
+        </section>
+
+        <section class="text-section">
+            <h2>CSS Text Styling</h2>
+            <p class="styled-text">This paragraph demonstrates various text styling properties including font family, size, weight, and color. Notice how we can control the spacing between lines and letters.</p>
+            <p class="styled-text">Another paragraph with different styling to show contrast and hierarchy in typography.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 CSS Basics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
